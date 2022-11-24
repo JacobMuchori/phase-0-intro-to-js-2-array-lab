@@ -47,7 +47,7 @@ console.log(cats);
 var cats = ["Milo", "Otis", "Garfield"];
 function removeLastCat(name) {
     var Cats=[...cats];
-    console.log(Cats.shift(name= "Garfield"));
+    console.log(Cats.pop(name= "Garfield"));
     return Cats;
 }
 console.log(removeLastCat("Garfield"));
@@ -56,7 +56,7 @@ console.log(cats);
 var cats = ["Milo", "Otis", "Garfield"];
 function removeFirstCat(name) {
     var Cats=[...cats];
-    console.log(Cats.pop(name= "Milo"));
+    console.log(Cats.shift(name= "Milo"));
     return Cats; 
 }
 console.log(removeFirstCat("Milo"));
